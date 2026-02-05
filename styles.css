@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background: #ffffff;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.subtitle {
+    color: #555;
+}
+
+.contact a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+section {
+    margin-top: 40px;
+}
+
+h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.skills li {
+    margin-bottom: 6px;
+}
+
+.date {
+    font-style: italic;
+    color: #666;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    margin: 50px 0 20px;
+    color: #777;
+    font-size: 0.9rem;
+}
