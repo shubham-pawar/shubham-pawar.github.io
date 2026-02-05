@@ -1,4 +1,4 @@
-# Shubham Pawar – Senior Software Engineer
+# Shubham Pawar – Software Engineer
 
 This repository hosts my professional portfolio website built using GitHub Pages.
 
