@@ -1,298 +1,629 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-  <title>Shubham Pawar | Software Engineer</title>
 
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Shubham Pawar",
-    "jobTitle":"Software Engineer",
-    "description":"Software Engineer specializing in Full-Stack Development, Cloud Engineering, AI Agents, CRM & ERP Systems.",
-    "url":"https://shubham-pawar.github.io",
-    "image":"https://shubham-pawar.github.io/profile.jpg",
-    "sameAs":[
-      "https://github.com/shubham-pawar",
-      "https://www.linkedin.com/in/shubhampawar1/"
-    ],
-    "address":{
-      "@type":"PostalAddress",
-      "addressLocality":"Milwaukee",
-      "addressRegion":"WI",
-      "addressCountry":"US"
-    },
-    "alumniOf":[
-      {
-        "@type":"CollegeOrUniversity",
-        "name":"University of Wisconsin–Milwaukee"
-      },
-      {
-        "@type":"CollegeOrUniversity",
-        "name":"University of Mumbai"
-      }
-    ],
-    "knowsAbout":[
-      "Java",
-      "Python",
-      "React",
-      "Django",
-      "Spring Boot",
-      "AWS",
-      "Docker",
-      "Kubernetes",
-      "Microservices",
-      "Distributed Systems",
-      "REST APIs",
-      "Cloud Computing",
-      "AI Agents",
-      "CRM",
-      "ERP",
-      "DevOps"
-    ]
-  }
-  </script>
-  
-  <!-- SEO -->
-  <meta name="description" content=" Software Engineer with 5+ years of experience building scalable systems, full-stack applications, and distributed cloud solutions." />
+    <meta charset="UTF-8">
 
-  <link rel="canonical" href="https://shubham-pawar.github.io/" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Shubham Pawar | Software Engineer" />
-  <meta property="og:description"
-        content="Software Engineer specializing in Java, Python, React, AWS, Docker, Kubernetes, AI Agents, and enterprise CRM & ERP systems." />
-  <meta property="og:image"
-        content="https://shubham-pawar.github.io/profile.jpg" />
-  <meta property="og:url"
-        content="https://shubham-pawar.github.io/" />
-  <meta property="og:site_name" content="Shubham Pawar Portfolio" />
-  
-  <!-- Fonts & Icons -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
+    <meta
+        name="description"
+        content="Shubham Pawar — Software Engineer specializing in full-stack development, cloud engineering, distributed systems, and enterprise software."
+    >
 
-  <link rel="stylesheet" href="styles.css" />
+    <meta
+        name="author"
+        content="Shubham Pawar"
+    >
+
+    <meta
+        property="og:title"
+        content="Shubham Pawar | Software Engineer"
+    >
+
+    <meta
+        property="og:description"
+        content="Software Engineer specializing in full-stack development, cloud engineering, distributed systems, and enterprise software."
+    >
+
+    <meta
+        property="og:image"
+        content="profile.jpg"
+    >
+
+    <title>
+        Shubham Pawar | Software Engineer
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
 </head>
+
+
 <body class="dark-mode">
 
-  <header class="hero">
-    <img src="profile.jpg" class="avatar" />
-    <h1>Hi, I'm <span class="accent">Shubham Pawar</span> 👋</h1>
-    <p class="subtitle"> Software Engineer · Full Stack · Cloud · Distributed Systems</p>
-    <div class="hero-links">
-      <a href="https://github.com/shubham-pawar" target="_blank"><i class="devicon-github-original"></i> GitHub</a>
-      <a href="https://www.linkedin.com/in/shubhampawar1/" target="_blank"><i class="devicon-linkedin-plain"></i> LinkedIn</a>
-      <a href="#projects">View Projects ↓</a>
+
+<!-- =====================================================
+     NAVBAR
+     ===================================================== -->
+
+<nav class="navbar">
+
+    <div class="nav-container">
+
+        <a
+            href="index.html"
+            class="logo"
+            aria-label="Shubham Pawar home"
+        >
+            SP
+        </a>
+
+
+        <div
+            class="nav-links"
+            id="nav-links"
+        >
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="experience.html">
+                Experience
+            </a>
+
+            <a href="projects.html">
+                Projects
+            </a>
+
+            <a href="education.html">
+                Education
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div class="nav-actions">
+
+            <button
+                id="theme-toggle"
+                class="icon-button"
+                type="button"
+                aria-label="Switch to light mode"
+            >
+                ☾
+            </button>
+
+            <button
+                id="menu-toggle"
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+        </div>
+
     </div>
-    <button id="theme-toggle" title="Toggle light/dark mode">🌙</button>
-  </header>
 
-  <main>
-    <section id="summary">
-      <h2>Professional Summary</h2>
-      <p>
-         Software Engineer with over 5 years of experience designing, building, and deploying scalable, high-performance software systems. Strong expertise in full-stack development, cloud-native architectures, distributed systems, and ETL pipelines. Proven track record of improving system reliability, performance, and operational efficiency through clean architecture, automation, and data-driven solutions.
-      </p>
-    </section>
+</nav>
 
-    <section id="experience">
-      <h2>Professional Experience</h2>
 
-      <article>
-        <h3>Software Developer — Radyne Corporation</h3>
-        <p class="date">Sept 2023 – Present | Milwaukee, WI</p>
-        <ul>
-          <li>Designed and implemented Java-based ETL pipelines integrating ERP systems with SuiteCRM, reducing data synchronization latency by 35%.</li>
-          <li>Automated high-volume nightly data ingestion workflows using cron-driven Java jobs, achieving 99.9% reliability.</li>
-          <li>Delivered 20+ executive-level analytical reports enabling data-driven decision-making and improving operational efficiency by 15%.</li>
-          <li>Developed Python-based demand forecasting models improving inventory planning accuracy by 28%.</li>
-          <li>Integrated Grafana dashboards for real-time monitoring and strategic analytics.</li>
-        </ul>
-      </article>
+<main>
 
-      <article>
-        <h3>Software Developer — University of Wisconsin</h3>
-        <p class="date">Feb 2022 – Apr 2023 | Milwaukee, WI</p>
-        <ul>
-          <li>Built a cloud-hosted web application for real-time research competition scoring using Django, React, and AWS.</li>
-          <li>Reduced result compilation time by 98% and eliminated manual scoring errors through automated evaluation pipelines.</li>
-          <li>Implemented JWT-based authentication and containerized deployments using Docker, achieving 99.9% uptime.</li>
-        </ul>
-      </article>
 
-      <article>
-        <h3>Software Engineer — Larsen & Toubro Infotech Ltd</h3>
-        <p class="date">Oct 2018 – May 2021 | Mumbai, India</p>
-        <ul>
-          <li>Enhanced enterprise analytics software by enabling export of complex visualizations, improving client productivity by 30%.</li>
-          <li>Implemented secure JWT-based licensing validation, achieving 100% prevention of unauthorized deployments.</li>
-          <li>Refactored Java Spring MVC codebase, improving application performance by 20% and reducing code complexity.</li>
-        </ul>
-      </article>
-    </section>
+<!-- =====================================================
+     HERO
+     ===================================================== -->
 
-<section id="skills">
-      <h2>Technical Skills</h2>
-      <ul class="skills">
-        <li><strong>Programming Languages:</strong> Java, Python, PHP, JavaScript</li>
-        <li><strong>Frontend Technologies:</strong> React, HTML5, CSS3, Bootstrap, Tailwind CSS, Material UI</li>
-        <li><strong>Backend Technologies:</strong> Spring, Spring MVC, Hibernate, REST APIs, Django, Flask, Microservices</li>
-        <li><strong>Databases:</strong> MySQL, PostgreSQL, MariaDB, SQLite</li>
-        <li><strong>Cloud & DevOps:</strong> AWS (EC2, RDS, Load Balancer), Docker, Kubernetes, Jenkins</li>
-        <li><strong>Tools & Practices:</strong> Git, GitHub, CI/CD, Agile, Nginx, Grafana, JIRA</li>
-      </ul>
-    </section>
-    
-    <section id="tech-stack">
-    <h2>Tech Stack</h2>
-    <div class="tech-grid">
-      <div class="tech-item"><i class="devicon-java-plain-wordmark"></i> Java</div>
-      <div class="tech-item"><i class="devicon-python-plain-wordmark"></i> Python</div>
-      <div class="tech-item"><i class="devicon-javascript-plain"></i> JavaScript</div>
-      <div class="tech-item"><i class="devicon-react-original-wordmark"></i> React</div>
-      <div class="tech-item"><i class="devicon-spring-plain-wordmark"></i> Spring</div>
-      <div class="tech-item"><i class="devicon-django-plain-wordmark"></i> Django</div>
-      <div class="tech-item"><i class="devicon-flask-original"></i> Flask</div>
-      <div class="tech-item"><i class="devicon-php-plain"></i> PHP</div>
-      <div class="tech-item"><i class="devicon-mysql-plain-wordmark"></i> MySQL</div>
-      <div class="tech-item"><i class="devicon-postgresql-plain-wordmark"></i> PostgreSQL</div>
-      <div class="tech-item"><i class="devicon-amazonwebservices-plain-wordmark"></i> AWS</div>
-      <div class="tech-item"><i class="devicon-docker-plain-wordmark"></i> Docker</div>
-      <div class="tech-item"><i class="devicon-kubernetes-plain-wordmark"></i> Kubernetes</div>
-      <div class="tech-item"><i class="devicon-jenkins-plain"></i> Jenkins</div>
-      <div class="tech-item"><i class="devicon-git-plain"></i> Git</div>
-      <div class="tech-item"><i class="devicon-github-original"></i> GitHub</div>
-    </div>
-  </section>
-    
-    <section id="projects">
-      <h2>Key Projects</h2>
-      <div class="projects">
+<section class="hero">
 
-        <div class="project-card">
-          <h3>UWMSRPC — Student Research Poster Competition System</h3>
-          <p>
-            Designed and developed a cloud-hosted web application to manage scoring and
-            evaluation for the University of Wisconsin–Milwaukee Student Research Poster Competition.
-            Replaced manual workflows with a secure, scalable digital platform.
-          </p>
-          <ul>
-            <li>Reduced result compilation time by <strong>98%</strong> by automating scoring and aggregation</li>
-            <li>Processed <strong>200+ evaluations</strong> across multiple rounds in under 5 minutes</li>
-            <li>Improved operational efficiency by <strong>90%</strong> with a streamlined UI</li>
-            <li>Achieved <strong>99.9% uptime</strong> using Docker-based deployments</li>
-          </ul>
-          <p><strong>Technologies:</strong> Django, React, AWS, Docker, JWT, Tailwind CSS</p>
+    <div class="hero-content reveal">
+
+        <div class="status-badge">
+
+            <span class="status-dot"></span>
+
+            Software Engineer
+
         </div>
 
-        <div class="project-card">
-          <h3>Automated MS CS Program of Study (POS) Verification System</h3>
-          <p>
-            Built an online system to automate the verification and validation of the graduate Program of Study
-            forms, replacing manual review processes and improving data accuracy.
-          </p>
-          <ul>
-            <li>Achieved <strong>95% reduction</strong> in form errors and omissions</li>
-            <li>Reduced form processing time by <strong>75%</strong> across multiple academic tracks</li>
-            <li>Implemented support for Professional, Thesis, and Non-Thesis tracks</li>
-            <li>Ensured <strong>100% validation accuracy</strong> through comprehensive testing</li>
-          </ul>
-          <p><strong>Technologies:</strong> Python, Web Forms, Validation Logic</p>
-        </div>
 
-        <div class="project-card">
-          <h3>UNI-VISE — University Recommendation System</h3>
-          <p>
-            Developed a machine learning–based recommendation platform to help prospective students
-            Identify suitable U.S. computer science programs based on academic profiles and preferences.
-          </p>
-          <ul>
-            <li>Trained a <strong>K-Nearest Neighbors (KNN)</strong> model for CS universities across the U.S.</li>
-            <li>Guided <strong>1,000+ students</strong> in identifying relevant universities</li>
-            <li>Achieved high accuracy in matching candidates to preferred programs</li>
-            <li>Deployed on AWS EC2 and RDS with public hosting</li>
-          </ul>
-          <p><strong>Technologies:</strong> Python, Flask, AWS EC2, AWS RDS, Machine Learning</p>
-        </div>
-
-        <div class="project-card">
-        <h3>FoodMine</h3>
-        <p>
-          Built a dynamic Angular 21 web application that enhances the food browsing and ordering experience with search and cart management features.
+        <p class="eyebrow">
+            FULL STACK · CLOUD · DISTRIBUTED SYSTEMS
         </p>
-        <ul>
-          <li>Enabled users to explore a wide variety of food items</li>
-          <li>Implemented search and shopping cart functionality for easy ordering</li>
-        </ul>
-        <p><strong>Technologies:</strong> Angular 21, TypeScript, HTML, CSS</p>
-      </div>
-        
-        <div class="project-card">
-          <h3>Text-to-Image Synthesis Using GANs</h3>
-          <p>
-            Conducted research on text-to-image synthesis using Generative Adversarial Networks,
-            focusing on feature engineering and model optimization.
-          </p>
-          <ul>
-            <li>Improved model training and validation efficiency by <strong>20%</strong></li>
-            <li>Performed feature engineering on large text datasets</li>
-            <li>Published research paper in <strong>IJRASET</strong> (Volume 6, Issue IV)</li>
-          </ul>
-          <p><strong>Technologies:</strong> TensorFlow, PyTorch, NumPy, Pandas, GANs</p>
+
+
+        <h1>
+
+            Building software that
+
+            <span class="gradient-text">
+                scales.
+            </span>
+
+        </h1>
+
+
+        <p class="hero-description">
+
+            I'm Shubham Pawar, a software engineer with
+            5+ years of experience building scalable
+            applications, cloud-native systems,
+            enterprise integrations, and data-driven
+            solutions.
+
+        </p>
+
+
+        <div class="btn-row">
+
+            <a
+                href="projects.html"
+                class="btn btn-primary"
+            >
+                View My Work
+                <span>→</span>
+            </a>
+
+
+            <!-- <a
+                href="assets/resume.pdf"
+                class="btn btn-secondary"
+                target="_blank"
+                rel="noopener"
+            >
+                Download Resume
+                <span>↓</span>
+            </a> -->
+
         </div>
 
-        <div class="project-card">
-          <h3>URL Shortener Web Application</h3>
-          <p>
-            Built a lightweight URL shortening service demonstrating backend fundamentals,
-            database design, and RESTful application development.
-          </p>
-          <ul>
-            <li>Implemented persistent storage using SQLite</li>
-            <li>Designed URL mapping and redirection logic</li>
-          </ul>
-          <p><strong>Technologies:</strong> Python, Flask, SQLite</p>
+
+        <div class="social-links">
+
+            <a
+                href="https://github.com/shubham-pawar"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub ↗
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/shubhampawar1/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                LinkedIn ↗
+            </a>
+
+            <a href="contact.html">
+                Contact →
+            </a>
+
         </div>
 
-      </div>
-    </section>
+    </div>
 
-    <section id="education">
-      <h2>Education</h2>
 
-      <p>
-        <strong>Master of Science in Computer Science</strong><br />
-        University of Wisconsin, Milwaukee
-      </p>
+    <div class="hero-image reveal">
 
-      <p>
-        <strong>Bachelor of Engineering in Information Technology</strong><br />
-        University of Mumbai
-      </p>
-    </section>
-  </main>
+        <img
+            src="profile.png"
+            alt="Portrait of Shubham Pawar"
+        >
 
-  <footer>
-    <p>© 2026 Shubham Pawar</p>
-  </footer>
+    </div>
 
-  <script>
-    const toggle = document.getElementById('theme-toggle');
-    if (toggle) {
-      toggle.addEventListener('click', () => {
-        document.body.classList.toggle('light-mode');
-        document.body.classList.toggle('dark-mode');
-        // update button icon
-        toggle.textContent = document.body.classList.contains('light-mode') ? '☀️' : '🌙';
-      });
-    }
-  </script>
+</section>
+
+
+<!-- =====================================================
+     STATS
+     ===================================================== -->
+
+<section class="stats reveal">
+
+    <div class="stat">
+
+        <strong>
+            5+
+        </strong>
+
+        <span>
+            Years Experience
+        </span>
+
+    </div>
+
+
+    <div class="stat">
+
+        <strong>
+            6+
+        </strong>
+
+        <span>
+            Featured Projects
+        </span>
+
+    </div>
+
+
+    <div class="stat">
+
+        <strong>
+            99.9%
+        </strong>
+
+        <span>
+            System Reliability
+        </span>
+
+    </div>
+
+
+    <div class="stat">
+
+        <strong>
+            28%
+        </strong>
+
+        <span>
+            Forecasting Accuracy Gain
+        </span>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     INTRO
+     ===================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <div>
+
+                <span class="eyebrow">
+                    WHAT I DO
+                </span>
+
+                <h2>
+                    Engineering with
+                    <span class="gradient-text">
+                        measurable impact.
+                    </span>
+                </h2>
+
+            </div>
+
+            <a href="about.html">
+                More about me →
+            </a>
+
+        </div>
+
+
+        <div class="featured-grid">
+
+            <article class="featured-card reveal">
+
+                <span class="project-number">
+                    01
+                </span>
+
+                <h3>
+                    Full-Stack Development
+                </h3>
+
+                <p>
+                    Building production-ready web
+                    applications across modern frontend
+                    and backend technologies.
+                </p>
+
+                <span class="project-link">
+                    Java · Python · React · Django
+                </span>
+
+            </article>
+
+
+            <article class="featured-card reveal">
+
+                <span class="project-number">
+                    02
+                </span>
+
+                <h3>
+                    Cloud & Distributed Systems
+                </h3>
+
+                <p>
+                    Designing reliable cloud-native
+                    applications, integrations,
+                    containerized services, and
+                    distributed architectures.
+                </p>
+
+                <span class="project-link">
+                    AWS · Docker · Kubernetes
+                </span>
+
+            </article>
+
+
+            <article class="featured-card reveal">
+
+                <span class="project-number">
+                    03
+                </span>
+
+                <h3>
+                    Data & Automation
+                </h3>
+
+                <p>
+                    Automating operational workflows,
+                    building ETL pipelines, analytics,
+                    monitoring, and data-driven systems.
+                </p>
+
+                <span class="project-link">
+                    ETL · Python · Grafana · CI/CD
+                </span>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FEATURED PROJECTS
+     ===================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <div>
+
+                <span class="eyebrow">
+                    SELECTED WORK
+                </span>
+
+                <h2>
+                    Featured Projects
+                </h2>
+
+            </div>
+
+            <a href="projects.html">
+                View all projects →
+            </a>
+
+        </div>
+
+
+        <div class="featured-grid">
+
+            <a
+                href="projects.html#uwmsrpc"
+                class="featured-card reveal"
+            >
+
+                <span class="project-number">
+                    01
+                </span>
+
+                <h3>
+                    UWMSRPC
+                </h3>
+
+                <p>
+                    Cloud-hosted platform for managing
+                    scoring and evaluation for the
+                    University of Wisconsin–Milwaukee
+                    Student Research Poster Competition.
+                </p>
+
+                <span class="project-link">
+                    Explore project →
+                </span>
+
+            </a>
+
+
+            <a
+                href="projects.html#pos"
+                class="featured-card reveal"
+            >
+
+                <span class="project-number">
+                    02
+                </span>
+
+                <h3>
+                    Program of Study Verification
+                </h3>
+
+                <p>
+                    Automated graduate Program of Study
+                    verification system designed to
+                    reduce errors and processing time.
+                </p>
+
+                <span class="project-link">
+                    Explore project →
+                </span>
+
+            </a>
+
+
+            <a
+                href="projects.html#univise"
+                class="featured-card reveal"
+            >
+
+                <span class="project-number">
+                    03
+                </span>
+
+                <h3>
+                    UNI-VISE
+                </h3>
+
+                <p>
+                    Machine-learning based platform
+                    helping students identify relevant
+                    U.S. computer science programs.
+                </p>
+
+                <span class="project-link">
+                    Explore project →
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CTA
+     ===================================================== -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="cta reveal">
+
+            <span class="eyebrow">
+                LET'S CONNECT
+            </span>
+
+            <h2>
+                Have an interesting problem
+                to solve?
+            </h2>
+
+            <p>
+                I'm always interested in discussing
+                software engineering, distributed
+                systems, cloud architecture, and
+                interesting technical challenges.
+            </p>
+
+            <div class="btn-row">
+
+                <a
+                    href="contact.html"
+                    class="btn btn-primary"
+                >
+                    Get in Touch →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div>
+
+            <div class="footer-brand">
+                Shubham Pawar
+            </div>
+
+            <div class="footer-text">
+                Software Engineer · Milwaukee, WI
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="projects.html">
+                Projects
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div class="footer-text">
+
+            © <span id="current-year">
+                2026
+            </span>
+            Shubham Pawar
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
+
 </html>
